@@ -62,7 +62,7 @@ If you already have image features, use class interface for score computation:
 
 ```python
 import torch
-from piq import FID
+from piq import MSID
 
 prediction_feats = torch.rand(10000, 1024)
 target_feats = torch.rand(10000, 1024)
